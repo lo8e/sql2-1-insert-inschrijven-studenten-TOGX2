@@ -19,3 +19,6 @@ WHERE ov_nummer = 90001;
 UPDATE studenten
 SET actief = 0
 WHERE inschrijvings_datum < 1-1-2017;
+SELECT studenten.ov_nummer, CONCAT(studenten.voornaam,' ',studenten.tussenvoegsel,' ', studenten.achternaam) AS naam, klassen.klas_code, klassen.cohort, CONCAT(docenten.voorletters,' ',docenten.tussenvoegsel,' ', docenten.achternaam) AS SLB_naam
+FROM studenten
+ORDER BY klas_code, achternaam ASC;
