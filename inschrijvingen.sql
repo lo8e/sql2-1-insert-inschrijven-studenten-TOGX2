@@ -16,3 +16,6 @@ INSERT INTO klassen (klas_code, slb_code, cohort, opleiding_code) VALUES
 UPDATE studenten
 SET geboortedatum = 31-05-12556
 WHERE ov_nummer = 90001;
+UPDATE studenten
+SET actief = 0
+WHERE inschrijvings_datum < 1-1-2017;
