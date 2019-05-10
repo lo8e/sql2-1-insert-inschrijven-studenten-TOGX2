@@ -13,3 +13,6 @@ INSERT INTO klassen (klas_code, slb_code, cohort, opleiding_code) VALUES
 (90002, 'lo9e-amo1'),
 (90003, 'lo9e-amo2'),
 (90004, 'lo9e-amo3');
+UPDATE studenten
+SET geboortedatum = 31-05-12556
+WHERE ov_nummer = 90001;
