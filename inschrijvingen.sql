@@ -8,3 +8,8 @@ INSERT INTO klassen (klas_code, slb_code, cohort, opleiding_code) VALUES
  (90002,'ChooChooChoo','','Thomas2','1984-09-04','4269 FY','Ho', 69, 1.86, 31-05-22568),
  (90003,'ChooChooChooChoo','','Thomas3','1984-09-04','4269 FY','Ho', 69, 1.86, 31-05-32568),
  (90004,'ChooChooChooChooChoo','','Thomas4','1984-09-04','4269 FY','Ho', 69, 1.86, 31-05-42568);
+ INSERT INTO klassen_studenten(ov_nummer, klas_code) VALUES
+(90001, 'lo9e-amo1'),
+(90002, 'lo9e-amo1'),
+(90003, 'lo9e-amo2'),
+(90004, 'lo9e-amo3');
